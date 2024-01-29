@@ -29,7 +29,6 @@ function drawCanvas(boardSize = 16) {
                 if (!e.shiftKey) {
                     pixel.style.backgroundColor = incrementAlpha(pixel.style.backgroundColor);
                 }
-                console.log(incrementAlpha(pixel.style.backgroundColor));
             });
             pixelRow.appendChild(pixel);
         }
