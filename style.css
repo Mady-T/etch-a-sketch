@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 900px;
+    min-height: 500px;
+    /* aspect-ratio: 1/1; */
+}
+
+div.pixel-line {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+div.pixel {
+    flex: initial;
+    border: 1px solid black;
+    border-radius: 8px;
+    flex: auto;
+    aspect-ratio: 1/1;
+
+}
